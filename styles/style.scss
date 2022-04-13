@@ -1,0 +1,47 @@
+
+html,
+body {
+    padding: 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+    color: white;
+    font-size: 20rem;
+    transition: 1s;
+}
+
+.video {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+iframe {
+    transform: scale(1.5);
+}
+
+/* Animation */
+
+.grid-wrapper div:nth-child(odd) img {
+    animation: anima 3s;
+}
+
+.grid-wrapper div:nth-child(even) img {
+    animation: anima 3s 1s;
+}
+
+@keyframes anima {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

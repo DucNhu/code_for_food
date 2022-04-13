@@ -1,0 +1,40 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Allison", cursive;
+}
+
+/* Main CSS */
+.grid-wrapper {
+    display: grid;
+    display: -ms-grid;
+
+    display: -moz-grid;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.grid-wrapper .wide {
+    grid-column: span 2;
+}
+
+.grid-wrapper .tall {
+    grid-row: span 2;
+}
+
+.grid-wrapper .big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
