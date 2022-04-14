@@ -1,0 +1,57 @@
+html,
+body {
+    padding: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 100%;
+    height: 100%;
+}
+
+:root {
+    --blue: #0B3F6E
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    display: inline-block;
+    color: white;
+    font-size: 20rem;
+    transition: 1s;
+}
+
+h1 {
+    color: var(--blue);
+    font-size: 5rem;
+}
+
+.font-Audiowide {
+    font-family: 'Audiowide', cursive;
+}
+
+.w-100 {
+    width: 100%
+}
+
+.h-100 {
+    height: 10rem
+}
+
+.color-gray {
+    color: #B3BEC7
+}
+
+.text-center {
+    text-align: center;
+}
+
+.vertical-bottom {
+    vertical-align: bottom;
+}
+
+@media screen and (max-width: 1280px) {
+    h1 {
+        color: var(--blue);
+        font-size: 2rem;
+    }
+}
